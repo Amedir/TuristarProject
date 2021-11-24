@@ -76,7 +76,7 @@ public class Bares {
 
 	@Override
 	public String toString() {
-		return "["
+		return "Bares ["
 				+ "id=" + id + 
 				", nome=" + nome + 
 				", endereco=" + endereco + 
