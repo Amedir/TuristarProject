@@ -10,7 +10,5 @@ import com.br.Turistar.model.Rotas;
 @Repository
 public interface RotasRepository extends JpaRepository<Rotas, Integer>{
 
-	Optional<Rotas> findByWaypoints(String wayPoints);
 	
-	Optional<Rotas> findById(Integer id);
 }
