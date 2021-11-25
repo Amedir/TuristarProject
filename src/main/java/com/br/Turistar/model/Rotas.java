@@ -1,7 +1,5 @@
 package com.br.Turistar.model;
 
-import java.util.ArrayList;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,6 +14,8 @@ public class Rotas {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
+	@Column
+	private String rota;
 	@Column
 	private String wayPoints;
 	
@@ -32,12 +32,16 @@ public class Rotas {
 		this.wayPoints = wayPoints;
 	}
 	
+	public String getRota() {
+		return rota;
+	}
+	public void setRota(String rota) {
+		this.rota = rota;
+	}
+	
 	@Override
 	public String toString() {
-		return "Rotas ["
-				+ "id=" + id + ", "
-				+ "wayPoints=" + wayPoints 
-				+ "]";
+		return "Rotas [id=" + id + ", rota=" + rota + ", wayPoints=" + wayPoints + "]";
 	}
 	
 	
