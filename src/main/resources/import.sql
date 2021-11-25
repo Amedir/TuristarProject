@@ -28,9 +28,4 @@ insert into bares (id,  endereco, especialidade, nome, site, telefone) values (1
 insert into bares (id,  endereco, especialidade, nome, site, telefone) values (11, "Rua do Imperador 376 - Santo Antônio","Portuguesa","Dom Pedro","www.dompedro.com.br","81) 3224.3762");
 insert into bares (id,  endereco, especialidade, nome, site, telefone) values (12, "Rua Bem- Te – Vi Pina","Regional","Casa de Vera","www.casadevera.com.br","(81) 3325.2562");
 
-/* Insert em usuarios */
-
-insert into user (id, cpf, email, idade, nome, senha, user) values (1, "859.578.770-00", "j.vieira.ferreira@accenture.com", 30, "Julio Vieira", "j12345", "JulioTheCesar");
-insert into user (id, cpf, email, idade, nome, senha, user) values (2, "420.389.290-25", "monteiroademir6@gmail.com", 19, "Ademir Monteiro", "ademir345", "Amedir");
-
 insert into mydb.rotas (id, way_points) values (1, "Ademir,Jorge");
