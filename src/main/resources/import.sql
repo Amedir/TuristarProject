@@ -28,4 +28,5 @@ insert into bares (id,  endereco, especialidade, nome, site, telefone) values (1
 insert into bares (id,  endereco, especialidade, nome, site, telefone) values (11, "Rua do Imperador 376 - Santo Antônio","Portuguesa","Dom Pedro","www.dompedro.com.br","81) 3224.3762");
 insert into bares (id,  endereco, especialidade, nome, site, telefone) values (12, "Rua Bem- Te – Vi Pina","Regional","Casa de Vera","www.casadevera.com.br","(81) 3325.2562");
 
-insert into mydb.rotas (id, way_points) values (1, "Ademir,Jorge");
+insert into mydb.rotas (id, rota, way_points, way_points2, way_points3, way_points4) values (1, "Bebedeira", "Bar e Restaurante Novo pina, rua da moeda", "Rota do Marujo Bar, Rua da moeda", "Bar 28, Av alfredo lisboa", "Bar vinte e oito, av alfredo lisboa" )
+
