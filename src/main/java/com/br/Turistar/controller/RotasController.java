@@ -33,7 +33,7 @@ public class RotasController {
 		return ResponseEntity.ok(rotaRepository.save(rotas));
 	}
 
-	@RequestMapping(value = "/rotas/{id}", method = RequestMethod.GET)
+	@RequestMapping(value = "/rotas/id={id}", method = RequestMethod.GET)
 	public ResponseEntity<Rotas> getRotas(@PathVariable(value = "id") int id) {
 		Optional<Rotas> rota = rotaRepository.findById(id);
 
@@ -41,5 +41,13 @@ public class RotasController {
 			return new ResponseEntity<Rotas>(rota.get(), HttpStatus.OK);
 		else
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+	}
+	
+	@RequestMapping(value = "/rotas/end={end}", method = RequestMethod.GET)
+	public ResponseEntity<List<Rotas>> findByEnd(@PathVariable String end){
+		
+		List<Rotas> rota = rotaRepository.findByEnd(end.trim());
+		
+		return new ResponseEntity<List<Rotas>>(rota, HttpStatus.OK);
 	}
 }
