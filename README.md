@@ -37,7 +37,11 @@ Rodar aplicação para saber se está tudo OK(abrir o mysql e mudar a senha no a
 # Heroku
 O link do heroku é https://api-turistar.herokuapp.com/ 
 no link você necessita passar as rotas atraves da url
-rotas disponiveis: /agremiacoes /rotas /bares
+
+## rotas disponiveis:
+- /agremiacoes 
+- /rotas
+- /bares
 
 # Autores
 - Matheus Enrico 
