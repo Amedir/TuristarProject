@@ -10,34 +10,39 @@ Plataforma para turistas com acesso a rotas turísticas e locais para visitar
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
+
 ## Implantação em produção
 - Back end: Heroku
 - Front end web: Netlify
 - Banco de dados: Mysql
 
 ## Back end
-Pré-requisitos: Java 11
+Pré requisitos:
+Sprint Tools Suite
+Java 11
 
 ```bash
+
 # clonar repositório
-git clone
+git clone https://github.com/Amedir/TuristarProject.git
 
-# entrar na pasta do projeto back end
-cd backend
+# Importar
+Importar o projeto para o Eclipse ou STS(spring tools suite)
 
-# executar o projeto
-./mvnw spring-boot:run
+# Executar
+Rodar aplicação para saber se está tudo OK(abrir o mysql e mudar a senha no application properties)
+
 ```
 
-# Autores
+# Heroku
+O link do heroku é https://api-turistar.herokuapp.com/ 
+no link você necessita passar as rotas atraves da url
+rotas disponiveis: /agremiacoes /rotas /bares
 
-Matheus Enrico 
-Ademir Monteiro
-Jhonny Glaucio
+# Autores
+- Matheus Enrico 
+- Ademir Monteiro
+- Jhonny Glaucio
 
 
 
