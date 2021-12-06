@@ -1,25 +1,16 @@
 # TuristarProject
 
 # Sobre o projeto
-Plataforma para turistas com acesso a rotas turísticas e locais para visitar 
-
-
-# Tecnologias utilizadas
-## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+A ideia do Turistar, é desenvolver uma plataforma mobile que roteirize e gamifique o turismo da cidade, através de diversas rotas, abrangendo sabores, cores e amores do nosso país Pernambuco! Trazendo a gamificação através da "competição saudável" entre os turistas que resolvem turistar conosco. Sendo assim nos somos uma plataforma para turistas com acesso a rotas turísticas e locais para visitar. 
 
 ## Implantação em produção
 - Back end: Heroku
 - Front end web: Netlify
 - Banco de dados: Mysql
 
-## Back end
-Pré requisitos:
-Sprint Tools Suite
-Java 11
+## Pré requisitos:
+- Sprint Tools Suite
+- Java 11
 
 ```bash
 
