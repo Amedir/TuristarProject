@@ -14,25 +14,47 @@ public class Rotas {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	@Column(name = "inicio")
-	private String inicio;
-	@Column(name = "way_point1")
-	private String wayPoint1;
+	@Column(name = "inicioLa")
+	private String inicioL;
+	
+	@Column(name = "inicioLo")
+	private String inicioLo;
+	
+	@Column(name = "way_point1La")
+	private String wayPoint1La;
+	
+	@Column(name = "way_point1Lo")
+	private String wayPoint1Lo;
 
-	@Column(name = "way_point2")
-	private String wayPoint2;
+	@Column(name = "way_point2La")
+	private String wayPoint2La;
+	
+	@Column(name = "way_point2Lo")
+	private String wayPoint2Lo;
 
-	@Column(name = "way_point3")
-	private String wayPoint3;
+	@Column(name = "way_point3La")
+	private String wayPoint3La;
+	
+	@Column(name = "way_point3Lo")
+	private String wayPoint3Lo;
 
-	@Column(name = "way_point4")
-	private String wayPoint4;
+	@Column(name = "way_point4La")
+	private String wayPoint4La;
+	
+	@Column(name = "way_point4Lo")
+	private String wayPoint4Lo;
 
-	@Column(name = "way_point5")
-	private String wayPoint5;
+	@Column(name = "way_point5La")
+	private String wayPoint5La;
+	
+	@Column(name = "way_point5Lo")
+	private String wayPoint5Lo;
 
-	@Column(name = "fim")
-	private String fim;
+	@Column(name = "fimLa")
+	private String fimLa;
+	
+	@Column(name = "fimLo")
+	private String fimLo;
 
 	public int getId() {
 		return id;
@@ -42,66 +64,124 @@ public class Rotas {
 		this.id = id;
 	}
 
-	public String getInicio() {
-		return inicio;
+	public String getInicioL() {
+		return inicioL;
 	}
 
-	public void setInicio(String inicio) {
-		this.inicio = inicio;
+	public void setInicioL(String inicioL) {
+		this.inicioL = inicioL;
 	}
 
-	public String getWayPoint1() {
-		return wayPoint1;
+	public String getInicioLo() {
+		return inicioLo;
 	}
 
-	public void setWayPoint1(String wayPoint1) {
-		this.wayPoint1 = wayPoint1;
+	public void setInicioLo(String inicioLo) {
+		this.inicioLo = inicioLo;
 	}
 
-	public String getWayPoint2() {
-		return wayPoint2;
+	public String getWayPoint1La() {
+		return wayPoint1La;
 	}
 
-	public void setWayPoint2(String wayPoint2) {
-		this.wayPoint2 = wayPoint2;
+	public void setWayPoint1La(String wayPoint1La) {
+		this.wayPoint1La = wayPoint1La;
 	}
 
-	public String getWayPoint3() {
-		return wayPoint3;
+	public String getWayPoint1Lo() {
+		return wayPoint1Lo;
 	}
 
-	public void setWayPoint3(String wayPoint3) {
-		this.wayPoint3 = wayPoint3;
+	public void setWayPoint1Lo(String wayPoint1Lo) {
+		this.wayPoint1Lo = wayPoint1Lo;
 	}
 
-	public String getWayPoint4() {
-		return wayPoint4;
+	public String getWayPoint2La() {
+		return wayPoint2La;
 	}
 
-	public void setWayPoint4(String wayPoint4) {
-		this.wayPoint4 = wayPoint4;
+	public void setWayPoint2La(String wayPoint2La) {
+		this.wayPoint2La = wayPoint2La;
 	}
 
-	public String getWayPoint5() {
-		return wayPoint5;
+	public String getWayPoint2Lo() {
+		return wayPoint2Lo;
 	}
 
-	public void setWayPoint5(String wayPoint5) {
-		this.wayPoint5 = wayPoint5;
+	public void setWayPoint2Lo(String wayPoint2Lo) {
+		this.wayPoint2Lo = wayPoint2Lo;
 	}
 
-	public String getFim() {
-		return fim;
+	public String getWayPoint3La() {
+		return wayPoint3La;
 	}
 
-	public void setFim(String fim) {
-		this.fim = fim;
+	public void setWayPoint3La(String wayPoint3La) {
+		this.wayPoint3La = wayPoint3La;
+	}
+
+	public String getWayPoint3Lo() {
+		return wayPoint3Lo;
+	}
+
+	public void setWayPoint3Lo(String wayPoint3Lo) {
+		this.wayPoint3Lo = wayPoint3Lo;
+	}
+
+	public String getWayPoint4La() {
+		return wayPoint4La;
+	}
+
+	public void setWayPoint4La(String wayPoint4La) {
+		this.wayPoint4La = wayPoint4La;
+	}
+
+	public String getWayPoint4Lo() {
+		return wayPoint4Lo;
+	}
+
+	public void setWayPoint4Lo(String wayPoint4Lo) {
+		this.wayPoint4Lo = wayPoint4Lo;
+	}
+
+	public String getWayPoint5La() {
+		return wayPoint5La;
+	}
+
+	public void setWayPoint5La(String wayPoint5La) {
+		this.wayPoint5La = wayPoint5La;
+	}
+
+	public String getWayPoint5Lo() {
+		return wayPoint5Lo;
+	}
+
+	public void setWayPoint5Lo(String wayPoint5Lo) {
+		this.wayPoint5Lo = wayPoint5Lo;
+	}
+
+	public String getFimLa() {
+		return fimLa;
+	}
+
+	public void setFimLa(String fimLa) {
+		this.fimLa = fimLa;
+	}
+
+	public String getFimLo() {
+		return fimLo;
+	}
+
+	public void setFimLo(String fimLo) {
+		this.fimLo = fimLo;
 	}
 
 	@Override
 	public String toString() {
-		return "Rotas [id=" + id + ", inicio=" + inicio + ", wayPoint1=" + wayPoint1 + ", wayPoint2=" + wayPoint2
-				+ ", wayPoint3=" + wayPoint3 + ", wayPoint4=" + wayPoint4 + ", wayPoint5=" + wayPoint5 + ", fim=" + fim
-				+ "]";
+		return "Rotas [id=" + id + ", inicioL=" + inicioL + ", inicioLo=" + inicioLo + ", wayPoint1La=" + wayPoint1La
+				+ ", wayPoint1Lo=" + wayPoint1Lo + ", wayPoint2La=" + wayPoint2La + ", wayPoint2Lo=" + wayPoint2Lo
+				+ ", wayPoint3La=" + wayPoint3La + ", wayPoint3Lo=" + wayPoint3Lo + ", wayPoint4La=" + wayPoint4La
+				+ ", wayPoint4Lo=" + wayPoint4Lo + ", wayPoint5La=" + wayPoint5La + ", wayPoint5Lo=" + wayPoint5Lo
+				+ ", fimLa=" + fimLa + ", fimLo=" + fimLo + "]";
 	}
 }

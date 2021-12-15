@@ -43,11 +43,11 @@ public class RotasController {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 	}
 	
-	@RequestMapping(value = "/rotas/end={end}", method = RequestMethod.GET)
-	public ResponseEntity<List<Rotas>> findByEnd(@PathVariable String end){
-		
-		List<Rotas> rota = rotaRepository.findByEnd(end.trim());
-		
-		return new ResponseEntity<List<Rotas>>(rota, HttpStatus.OK);
-	}
+//	@RequestMapping(value = "/rotas/end={end}", method = RequestMethod.GET)
+//	public ResponseEntity<List<Rotas>> findByEnd(@PathVariable String end){
+//		
+//		List<Rotas> rota = rotaRepository.findByEnd(end.trim());
+//		
+//		return new ResponseEntity<List<Rotas>>(rota, HttpStatus.OK);
+//	}
 }
