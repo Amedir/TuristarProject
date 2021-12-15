@@ -55,6 +55,9 @@ public class Rotas {
 	
 	@Column(name = "fimLo")
 	private String fimLo;
+	
+	@Column(name = "fim")
+	private String fim;
 
 	public int getId() {
 		return id;
@@ -176,12 +179,20 @@ public class Rotas {
 		this.fimLo = fimLo;
 	}
 
+	public String getFim() {
+		return fim;
+	}
+
+	public void setFim(String fim) {
+		this.fim = fim;
+	}
+
 	@Override
 	public String toString() {
 		return "Rotas [id=" + id + ", inicioL=" + inicioL + ", inicioLo=" + inicioLo + ", wayPoint1La=" + wayPoint1La
 				+ ", wayPoint1Lo=" + wayPoint1Lo + ", wayPoint2La=" + wayPoint2La + ", wayPoint2Lo=" + wayPoint2Lo
 				+ ", wayPoint3La=" + wayPoint3La + ", wayPoint3Lo=" + wayPoint3Lo + ", wayPoint4La=" + wayPoint4La
 				+ ", wayPoint4Lo=" + wayPoint4Lo + ", wayPoint5La=" + wayPoint5La + ", wayPoint5Lo=" + wayPoint5Lo
-				+ ", fimLa=" + fimLa + ", fimLo=" + fimLo + "]";
+				+ ", fimLa=" + fimLa + ", fimLo=" + fimLo + ", fim=" + fim + "]";
 	}
 }
